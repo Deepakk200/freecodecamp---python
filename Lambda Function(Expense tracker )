@@ -47,5 +47,6 @@ def main():
             break
 
 if __name__ == '__main__':
-        main()
+        main() 
 # If the value of __name__ is set to '__main__', it implies that the current script is the main program, and not a module.
+# statement checks if the script is being run as the main program. 
