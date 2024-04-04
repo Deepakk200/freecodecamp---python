@@ -1,4 +1,3 @@
-#shortest path algorithm  
 my_graph = {
     'A': [('B', 3), ('D', 1)],
     'B': [('A', 3), ('C', 4)],
@@ -8,5 +7,10 @@ my_graph = {
 
 def shortest_path(graph, start):
     unvisited = []
+    distances = {}
     for node in graph:
         unvisited.append(node)
+        if node == start:
+            distances[node] = 0
+        else:
+            distances[node] = float('inf')
