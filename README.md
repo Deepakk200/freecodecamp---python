@@ -1,6 +1,3 @@
-Certainly! Below is the revised paragraph for the Arithmetic Formatter Project, suitable for inclusion in a `README.md` file:
-
----
 
 ### Arithmetic Formatter Project
 
